@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.easymin</groupId>
+    <artifactId>emark</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>emark</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.rjeschke</groupId>
+            <artifactId>txtmark</artifactId>
+            <version>0.11</version>
+        </dependency>
+        <dependency>
+            <groupId>com.steadystate</groupId>
+            <artifactId>css</artifactId>
+            <version>0.9.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.w3c.css</groupId>
+            <artifactId>sac</artifactId>
+            <version>1.3</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>releases</id>
+            <url>http://192.168.0.222:8081/nexus/content/repositories/releases/</url>
+        </repository>
+    </repositories>
+</project>
